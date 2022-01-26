@@ -1,0 +1,41 @@
++++++++++++++++++++++++++++++++++++++++++++ Формат хранения объектов в файле .csv +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+--------Hemul-----------
+Hemul, <sex (Пол объекта) >, <name (Имя объекта) >, <vocation>
+
+--------Moomin-----------
+Moomin, <name (Имя объекта) >, <sex (Пол объекта) >, <lastCall>, <lastEnd>, <energy>
+
+------Hatifnutt---------
+Hatifnutt, <name (Имя объекта) >
+
+
++++++++++++++++++++++++++++++++++++++++++++ Как создаются объекты при чтении из файла .csv ++++++++++++++++++++++++++++++++++++++++++++
+1) Считывание строки;
+2) Проверка типа класса (через switch);
+3) Выделение отдельных полей (через split() по запятым);
+4) Создание класса и добавление его в коллекцию (надо бы переопределить хэш-код)
+
+
+!!!!! JavaDoc:
+(Windows)
+javadoc -private -d ./public_html -cp .;lab4.jar -encoding UTF-8 -docencoding UTF-8 -charset UTF-8 *.java
+
+(Helios)
+javadoc18 -private -d ./public_html -cp .:lab4.jar -encoding UTF-8 -docencoding UTF-8 -charset UTF-8 *.java
+
+!!!!! Создание системной переменной на Helios
+export lab5=/home/s265058/lab5/lab5_objects.csv
+
+!!!!!!!!Компиляция и запуск:
+(Windows)
+javac -cp .;lab4.jar *.java
+java -cp .;lab4.jar Main 	<!-или> 	java -jar lab5.jar 
+
+(Helios)
+javac18 -cp .:lab4.jar *.java
+java18 -cp .:lab4.jar Main 	<!-или> 	java18 -jar lab5.jar
+
+!!!!!!!Создание jar-файла:
+jar -cvfm lab5.jar MANIFEST.MF *.java
+

@@ -1,0 +1,9 @@
+util/CryptoHash.class
+database/Book.class
+textAnalyzer/CardKeyword.class
+textAnalyzer/KeywordsExtractor.class
+controller/Main.class
+controller/Server.class
+controller/CommandExecutor.class
+controller/Client.class
+database/DatabaseProcedures.class

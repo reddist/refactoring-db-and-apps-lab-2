@@ -1,0 +1,9 @@
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/controller/Server.java
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/controller/Client.java
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/controller/Main.java
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/textAnalyzer/CardKeyword.java
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/database/Book.java
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/textAnalyzer/KeywordsExtractor.java
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/controller/CommandExecutor.java
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/database/DatabaseProcedures.java
+/home/aleksey/study/refactoring-db-and-apps/lab2/backend_maven/src/main/java/util/CryptoHash.java
